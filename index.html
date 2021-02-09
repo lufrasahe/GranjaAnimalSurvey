@@ -10,13 +10,13 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <h1 id="title" class="text-center">Rebelion en la granja</h1>
-        <p id="description" class="text-ceter">
+        <p id="description" class="text-center">
           Encuesta del libro escrito por George Orwell
         </p>
       </header>
@@ -24,8 +24,8 @@
         <h2>Lee los siguientes desafios y responde lo que se te pide...</h2>
       </div>
       <form id="survey-form">
-        <div class="form-group">
-          <h3>
+        <div class="form-group group1">
+          <h3 id="instructions">
             Escribe en los campos las palabras faltantes hasta que el resumen
             este completo
           </h3>
@@ -46,7 +46,61 @@
                 <li>Ningun animal matara a otro animal.</li>
                 <li>Todos los animales son <input type="text" class="form-control" required>.</li>
             </ol>
-        </p>
+         </p>
+        </div>
+        <div class="form-group group2">
+            <h3>Recuerdas?</h3>
+            <p>
+                Al principio, todo es felicidad en la 
+                <input type="text" class="form-control">, pero con el tiempo, los 
+                <input type="text" class="form-control">, que se habian autonombrado lideres por ser los animales mas
+                <input type="text" class="form-control">, comienzan a abusar de su 
+                <input type="text" class="form-control"> manipulan los 
+                <input type="text" class="form-control"> para su propio beneficio. Los dos cerdos lideres, Snowball y 
+                <input type="text" class="form-control">, empiezan a pelear hasta que este ultimo lanza a los 
+                <input type="text" class="form-control"> contra Snowball. que huye de la granja. Ahora que es el unico lider, el cerdo somete a los 
+                <input type="text" class="form-control"> bajo su dictadura, con la amenaza de los perros, y es asi como los cerdos acaban adoptando todos los 
+                <input type="text" class="form-control"> que odiaban del ser humano. Al final, el unico 
+                <input type="text" class="form-control"> que queda escrito es: <br>Todos los
+                <input type="text" class="text-control"> son iguales, pero algunos son mas 
+                <input type="text" class="form-control">que otros.
+            </p>
+        </div>
+        <div class="form-group group3">
+            <h3 id="instructions">Reflexiona y escribe</h3>
+            <ol>
+                <li><fieldset>
+                    <legend>Con cual de los personajes del relato te identificas mejor?</legend>
+                    <input type="text" class="form-control" maxlength="140">
+                </fieldset></li>
+                <li><fieldset>
+                    <legend>Cual de los personajes del relato te parece molesto y porque?</legend>
+                    <input type="text" class="formcontrol" maxlength="140">
+                </fieldset></li>
+                <li><fieldset>
+                    <legend>Si pudieras cambiar el final del relato, como seria tu final?</legend>
+                    <input type="text" class="form-control" maxlength="140">
+                </fieldset></li>
+         </ol>
+        </div>
+        <div class="form-group group4">
+            <h3>Marca la casilla de los personajes que recuerdes</h3>
+            <label for=""><input type="checkbox" name="character" id="Napoleon" class="checkbox">Napoleon</label>
+            <label for=""><input type="checkbox" name="character" id="Snowball" class="checkbox">Snowball</label>
+            <label for=""><input type="checkbox" name="character" id="Boxer" class="checkbox">Boxer</label>
+            <label for=""><input type="checkbox" name="character" id="Squealer" class="checkbox">Squealer</label>
+            <label for=""><input type="checkbox" name="character" id="ViejoMayor" class="checkbox">Viejo Mayor</label>
+            <label for=""><input type="checkbox" name="character" id="Clover" class="checkbox">Clover</label>
+            <label for=""><input type="checkbox" name="character" id="Moses" class="checkbox">Moses</label>
+            <label for=""><input type="checkbox" name="character" id="Mollie" class="checkbox">Mollie</label>
+            <label for=""><input type="checkbox" name="character" id="Benjamin" class="checkbox">Benjamin</label>
+            <label for=""><input type="checkbox" name="character" id="Muriel" class="checkbox">Muriel</label>
+            <label for=""><input type="checkbox" name="character" id="Jones" class="checkbox">Jones</label>
+            <label for=""><input type="checkbox" name="character" id="Frederick" class="checkbox">Frederick</label>
+            <label for=""><input type="checkbox" name="character" id="Pilkington" class="checkbox">Pilkington</label>
+            <label for=""><input type="checkbox" name="character" id="Whymper" class="checkbox">Whymper</label>
+            <label for=""><input type="checkbox" name="character" id="JessieAndBluebell" class="checkbox">Jessie y Bluebell</label>
+            <label for=""><input type="checkbox" name="character" id="Minimus" class="checkbox">Minimus</label>
         </div>
       </form>
     </div>
